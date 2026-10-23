@@ -1,0 +1,7 @@
+1. Giải nén gói ZIP.
+2. Vào kho GitHub chứa website https://lhhmt2025-tlsvc.github.io/ (thường là lhhmt2025-tlsvc.github.io).
+3. Add file > Upload files. Tải lên toàn bộ 8 file trong gói, KHÔNG tải lên ZIP.
+4. Commit changes.
+5. Mở https://lhhmt2025-tlsvc.github.io/bo-doi-nguon.html
+6. Để liên kết bài từ trang chủ, bổ sung thẻ <a href="bo-doi-nguon.html">Xem bộ đổi nguồn STD-VIET 2KVA</a> vào mục Sản phẩm & linh kiện trong index.html.
+Lưu ý: nếu kho dùng cấu hình khác, kiểm tra thư mục xuất bản GitHub Pages trước khi upload.
