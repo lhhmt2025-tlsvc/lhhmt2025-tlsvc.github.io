@@ -1,0 +1,52 @@
+media:
+  input: media/articles
+  output: /media/articles
+  rename: safe
+  categories: [image]
+
+content:
+  - name: articles
+    label: Bài viết THÀNH LŨY
+    type: file
+    path: data/articles.json
+    format: json
+    list: true
+    operations:
+      delete: false
+    fields:
+      - name: slug
+        label: Đường dẫn bài viết
+        type: string
+        required: true
+        pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+
+      - name: title
+        label: Tiêu đề bài viết
+        type: string
+        required: true
+
+      - name: category
+        label: Chuyên mục
+        type: string
+
+      - name: date
+        label: Ngày đăng
+        type: date
+
+      - name: summary
+        label: Mô tả ngắn
+        type: text
+
+      - name: cover_image
+        label: Ảnh đại diện
+        type: image
+
+      - name: youtube_url
+        label: Đường dẫn video YouTube
+        type: string
+
+      - name: article_html
+        label: Nội dung bài viết
+        type: rich-text
+        options:
+          format: html
